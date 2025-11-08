@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite DB and runtime artifacts
+queue.db
+workers.pid
+*.log
+
+# Env / secrets
+.env
+.env.local
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
