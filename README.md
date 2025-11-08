@@ -9,11 +9,11 @@ Requirements
 - No external packages (uses stdlib + sqlite)
 
 Install / run
-1. Ensure files are in `/home/siddhartha/Desktop/queuectl`.
+1. Ensure files are in `queuectl`.
 2. Make test script executable:
-   chmod +x /home/siddhartha/Desktop/queuectl/test_flow.sh
+   chmod +x queuectl/test_flow.sh
 3. Run commands with python3:
-   /usr/bin/python3 /home/siddhartha/Desktop/queuectl/queuectl.py <command>
+   /usr/bin/python3 queuectl/queuectl.py <command>
    or use the test script:
    ./test_flow.sh
 
