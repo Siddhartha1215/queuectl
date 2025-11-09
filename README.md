@@ -113,8 +113,4 @@ A basic integration script `test_flow.sh` is provided.
 - Add file logging or run workers in foreground for easier debugging.
 - Add unit/integration tests for concurrency, retry, DLQ.
 
-## Demo
-Include a short recorded demo link here after you record it (add URL).
-
 ---
-For any change you want applied now (e.g., change retry cutoff to >=, clear metadata on DLQ retry, or improve PID handling), tell me which and I'll update the code.
